@@ -8,4 +8,4 @@ echo "<p>Contenido del archivo</p>" >> index.html
 touch site.css
 git add -A
 git commit -m "Ésto podría ser un hotfix en producción"
-git checkout 005-move-commit-to-another-branch
+git checkout master
