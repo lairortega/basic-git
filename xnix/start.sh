@@ -1,7 +1,7 @@
 #!/binbash
 cd ..
 mkdir {css,js,img}
-touch {css/{site.css,app.css,mobile.css},img/{log.png,bg.jpg},js/{login.js,contact.js}}
+touch {css/{site.css,app.css,mobile.css},img/{logo.png,bg.jpg},js/{login.js,contact.js}}
 
 git add css/site.css
 git commit -m "site.css"
