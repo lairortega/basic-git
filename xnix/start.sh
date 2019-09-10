@@ -1,19 +1,17 @@
-#!/binbash
+#!/bin/bash
 cd ..
 mkdir {css,js,img}
-touch {css/{site.css,app.css,mobile.css},img/{logo.png,bg.jpg},js/{login.js,contact.js}}
+touch {css/{login.css,contact.css},img/{login.png,contact.jpg},js/{login.js,contact.js}}
 
-git add css/site.css
-git commit -m "site.css"
-git add img/logo.png
-git commit -m "logo.png"
+git add css/login.css
+git commit -m "login.css"
+git add img/login.png
+git commit -m "login.png"
 git add js/login.js
 git commit -m "login.js"
-git add css/app.css
-git commit -m "app.css"
-git add img/bg.jpg
-git commit -m "bg.jpg"
+git add css/contact.css
+git commit -m "contact.css"
+git add img/contact.jpg
+git commit -m "contact.jpg"
 git add js/contact.js
 git commit -m "contact.js"
-git add css/mobile.css
-git commit -m "mobile.css"
