@@ -16,3 +16,6 @@ git checkout master
 echo "<p>Continuamos desarrollando</p>" > index.html
 git add -A
 git commit -m "mensaje de desarrollo."
+
+git add -A
+git commit -m "seguimos en desarrollo."
