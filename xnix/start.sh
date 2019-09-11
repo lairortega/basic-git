@@ -16,3 +16,5 @@ git checkout master
 echo "body{ color: ccc; }" >> site.css
 git add -A
 git commit -m "mensaje de desarrollo."
+
+git checkout 005-move-commit-to-another-branch
