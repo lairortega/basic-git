@@ -13,6 +13,6 @@ git add -A
 git commit -m "Ésto podría ser un hotfix en producción."
 
 git checkout master
-echo "<p>Continuamos desarrollando</p>" >> index.html
+echo "body{ color: ccc; }" >> site.css
 git add -A
 git commit -m "mensaje de desarrollo."
